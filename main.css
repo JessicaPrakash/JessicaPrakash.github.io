@@ -18,7 +18,7 @@ header {
 	top: 0;
 	width: 0%;
 	height: 10px;
-	position:left;
+	position:center;
 	font-weight:800;
 	color:#fff;
 	z-index: 3; /* to bring the layer on top for the arrangement */
