@@ -73,3 +73,9 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 	color: white
 
 }
+
+div {
+    height: 50px;
+    width: 50%;
+    background-color: powderblue;
+}
