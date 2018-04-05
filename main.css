@@ -2,19 +2,14 @@
 
 
 body {
-  margin: 10;
-  padding: 10;
-}
-
-
-h1 {
-  padding: 20px 0px 10px 0px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
 	background-color:blue;
 	top: 0;
-	width: 50%;
+	width: 100%;
 	height: 50px;
 	position:fixed;
 	font-weight:800;
@@ -32,7 +27,7 @@ header ul li {
 	list-style-type:none;
 	display: list-item;
 	line-height: 50px;
-	padding-left: 100px;
+	padding-left: 150px;
 }
 
 header ul li a { /* for links we need additional styling */
@@ -60,37 +55,21 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 
 .box {
 	position: absolute;
-	top:40px;
-    padding: 10px;
+	top:50px;
+    padding: 50px;
     text-align: center;
 
 }
 
-.jessica {
-	background-color:black;
-	opacity: 0.5;
-	color: white
+footer {
 
-}
 
-h1 {
-
-font-family: 'Lobster Two', cursive;
-
-}
-
-h2 {
-
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
-
-}
-
-p {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-p1 {
-
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    text-align: center;
 
 }
