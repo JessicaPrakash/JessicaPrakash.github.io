@@ -15,6 +15,6 @@ text-decoration: none;
 div 
 {
     height: 50px;
-    width: 50%;
-    background-color: powderblue;
+    width: 100%;
+    background-color: blue;
 }
