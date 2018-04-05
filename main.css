@@ -61,10 +61,10 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 /* Style the header */
 
 .box {
-	position: left;
+	position: absolute;
 	top:50px;
-    padding: 30px;
-    text-align: left;
+    padding: 150px;
+    text-align: center;
 
 }
 
