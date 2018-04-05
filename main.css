@@ -12,10 +12,8 @@ color: #69CBBB;
 text-decoration: none;
 }
 
-
-body {
-  margin: 0;
-  padding: 0;
+h1 {
+  padding: 20px 0px 10px 0px;
 }
 
 header {
