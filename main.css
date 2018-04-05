@@ -63,7 +63,7 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 .box {
 	position: absolute;
 	top:50px;
-    padding: 150px;
+    padding: 0px;
     text-align: center;
 
 }
