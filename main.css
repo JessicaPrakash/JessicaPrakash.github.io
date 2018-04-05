@@ -72,3 +72,32 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 h1 {
   padding: 20px 0px 10px 0px;
 }
+
+h2 {
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p1 {
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+
+}
+
+footer {
+
+
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+
+}
