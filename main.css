@@ -12,70 +12,9 @@ color: #69CBBB;
 text-decoration: none;
 }
 
-header {
-	background-color:blue;
-	top: 0;
-	width: 150%;
-	height: 50px;
-	position:fixed;
-	font-weight:800;
-	color:#fff;
-	z-index: 3; /* to bring the layer on top for the arrangement */
-
-}
-
-header ul {
-	display: flex;
-	justify-content: center;
-}
-
-header ul li {
-	list-style-type:none;
-	display: list-item;
-	line-height: 50px;
-	padding-left: 150px;
-}
-
-header ul li a { /* for links we need additional styling */
-	color:#fff;
-	text-decoration: none;
-}
-
-header {
-
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
-
-}
-
-header ul li a {
-
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
-
-}
-
-#list1 {
-	padding:0;
-}
-
-/* Style the header */
-
-.box {
-	position: absolute;
-	top:50px;
-    padding: 50px;
-    text-align: center;
-
-}
-
-.jessica {
-	background-color:black;
-	opacity: 10;
-	color: white
-
-}
-
-div {
+div 
+{
     height: 50px;
-    width: 200%;
+    width: 50%;
     background-color: powderblue;
 }
