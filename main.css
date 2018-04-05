@@ -34,7 +34,7 @@ header ul li {
 	list-style-type:none;
 	display: list-item;
 	line-height: 50px;
-	padding-left: 100px;
+	padding-left: 30px;
 }
 
 header ul li a { /* for links we need additional styling */
