@@ -60,8 +60,8 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 
 .box {
 	position: absolute;
-	top:50px;
-    padding: 40px;
+	top:40px;
+    padding: 10px;
     text-align: center;
 
 }
