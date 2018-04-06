@@ -12,9 +12,8 @@ color: #69CBBB;
 text-decoration: none;
 }
 
-div 
-{
-    height: 50px;
+div {
+    height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: powderblue;
 }
