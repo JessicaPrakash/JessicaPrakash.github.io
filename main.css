@@ -17,3 +17,9 @@ div.ex1 {
     margin: auto;
     background-color: blue;
 }
+
+div {
+    height: 100px;
+    width: 700px;
+    background-color: powderblue;
+}
