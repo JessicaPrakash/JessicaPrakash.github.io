@@ -16,8 +16,8 @@ text-decoration: none;
 header {
 	background-color:blue;
 	top: 0;
-	width: 150%;
-	height: 20px;
+	width: 200%;
+	height: 100px;
 	position:fixed;
 	font-weight:800;
 	color:#fff;
