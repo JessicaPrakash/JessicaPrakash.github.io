@@ -54,7 +54,7 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 /* Style the header */
 
 .box {
-	position: absolute;
+	position: center;
 	top:50px;
     padding: 50px;
     text-align: center;
