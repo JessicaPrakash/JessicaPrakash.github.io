@@ -4,6 +4,8 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+
 }
 
 header {
@@ -22,6 +24,7 @@ header {
 header ul {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 header ul li {
@@ -29,6 +32,7 @@ header ul li {
 	display: list-item;
 	line-height: 50px;
 	padding-left: 150px;
+	text-align: center;
 }
 
 header ul li a { /* for links we need additional styling */
