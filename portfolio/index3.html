@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: #ffffff;
+				margin: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script src="js/three.min.js"></script>
+		<script src="js/detector.js"></script>
+		<script>
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			
+			var camera, scene, renderer;
+			var geometry, material, mesh;
+			function setup() {
+				var W = window.innerWidth, H = window.innerHeight;
+				renderer = new THREE.WebGLRenderer();
+				renderer.setSize( W, H );
+				document.body.appendChild( renderer.domElement );
+				camera = new THREE.PerspectiveCamera( 50, W/H, 1, 10000 );
+				camera.position.z = 500;
+				scene = new THREE.Scene();
+				
+				
+				// paste your code from the geometryGUI here
+				for ( var i = 0; i < 300; i ++ ) {
+				
+geometry = new THREE.IcosahedronGeometry(35, 2);
+material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading});
+mesh = new THREE.Mesh(geometry, material);
+					
+			mesh.position.x = Math.random() * 800 - 350;
+					mesh.position.y = Math.random() * 700 - 410;
+					mesh.position.z = Math.random() * 700 - 500;
+					mesh.rotation.x = Math.random() * 2 * Math.PI;
+					mesh.rotation.y = Math.random() * 2 * Math.PI;
+					mesh.rotation.z = Math.random() * 2 * Math.PI;
+					
+scene.add(mesh);
+bg = document.body.style;
+bg.background = '#3858f2';
+					
+				}
+				
+				
+			}
+			function draw() {
+				requestAnimationFrame( draw );
+				
+				// experiment with code from the snippets menu here
+camera.position.z = Math.sin( Date.now() * 0.0015 ) * 410;
+				
+			renderer.render( scene, camera );
+			}
+		
+			setup();
+			draw();
+		</script>
+		
+	</body>
+</html>
