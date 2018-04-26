@@ -105,7 +105,7 @@ text("I have to try letting go of the things that bring me down.", 630, 440);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*4);
-text("I'm blessed", 1100, 200);
+text("I'm blessed.", 1100, 200);
 
 strokeWeight(2);
 fill(255);
