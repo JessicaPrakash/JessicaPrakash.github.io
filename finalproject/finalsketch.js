@@ -130,14 +130,14 @@ strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I don't think I have a purpose.", 570, 85);
+text("I don't think I have a purpose.", 500, 85);
 
 
 strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I'm sad and so tired of this!", 600, 310);
+text("I'm sad and so tired of this!", 500, 310);
 
 
 strokeWeight(2);
@@ -150,13 +150,13 @@ strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I'm so stupid.", 610, 390);
+text("I'm so stupid.", 430, 390);
 
 strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I wish I was never born.", 630, 440);
+text("I wish I was never born.", 480, 440);
 
 
 strokeWeight(2);
@@ -231,7 +231,7 @@ strokeWeight(2);
     noStroke();
   }
   textSize(20 + (mouseX / width)*72);
-  text("Don't give up. You got this!", 1150, 265);
+  text("Don't give up. You got this!", 1180, 265);
 
 
        }
