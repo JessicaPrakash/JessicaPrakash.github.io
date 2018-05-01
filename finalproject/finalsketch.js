@@ -4,7 +4,7 @@ var sourceText = "";
 
 var pg;
 
-var words = ["What's wrong with me?", "I'm sad.", "I can't do this.", "I'm worthless!",];
+var words = ["What's wrong with me?", "I'm sad.", "I can't do this.", "I'm so stupid!",];
 
 var words2 = ["I'm blessed!", "I have to keep trying.", "I can achieve my dreams.", "I must stay strong."];
 
@@ -234,7 +234,7 @@ strokeWeight(2);
     noStroke();
   }
   textSize(20 + (mouseX / width)*72);
-  text("Don't give up. You got this!", 1180, 265);
+  text("Don't give up! You got this!", 1180, 265);
 
 
        }
