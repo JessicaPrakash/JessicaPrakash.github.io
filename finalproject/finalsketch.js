@@ -4,6 +4,13 @@ var sourceText = "";
 
 var pg;
 
+var words = ["What's wrong with me?", "I'm sad.", "I can't do this.", "I'm worthless!",];
+
+var words2 = ["I'm blessed!", "I have to keep trying.", "I can achieve my dreams.", "I must stay strong."];
+
+
+var index = 0;
+
 function setup(){
   createCanvas(1349, 546);
   pg = createGraphics(700, 600);
@@ -14,7 +21,7 @@ function setup(){
 
 
 function draw(){
-  fill(0, 255, 250);
+  fill(158, 248, 255);
   rect(0, 0, width, height);
   fill(203, 0, 255);
   noStroke();
@@ -108,10 +115,30 @@ function draw(){
      sourceText.substring(left, right+1),
      width/2, height/2);
 
+
+
+     strokeWeight(2);
+     fill(255, 255, 255);
+     textFont("Comic Sans MS");
+     textSize(32);
+
+     text(words[index], 500, 320);
+
+     text(words2[index], 1200, 320);
+
+
+
        if (mouseIsPressed) {
          noFill();
          stroke(0, 255, 0);
 
+         index = index + 1;
+
+         if (index == words.length) {
+
+         index = 0;
+
+}
 
     strokeWeight(2);
     fill(255);
@@ -123,7 +150,7 @@ function draw(){
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*4);
-text("I mess up so much. What's wrong with me?", 600, 130);
+text("I fail so much.", 420, 137);
 
 
 strokeWeight(2);
@@ -137,26 +164,15 @@ strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I'm sad and so tired of this!", 500, 310);
+text("I'm so tired of this!", 468, 390);
 
 
-strokeWeight(2);
-fill(255);
-textFont("Comic Sans MS");
-textSize(20 + (mouseX / width)*3);
-text("I wish my I could escape my problems but I can't.", 600, 350);
 
 strokeWeight(2);
 fill(255);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I'm so stupid.", 430, 390);
-
-strokeWeight(2);
-fill(255);
-textFont("Comic Sans MS");
-textSize(20 + (mouseX / width)*3);
-text("I wish I was never born.", 480, 440);
+text("I wish I was never born.", 480, 445);
 
 
 strokeWeight(2);
@@ -168,54 +184,41 @@ text("I don't know if I can do this but I can't just give up.", 650, 500);
 
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*4);
-text("I'm blessed", 1100, 190);
+text("My mistakes and failures can help me become stronger.", 1345, 190);
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*4);
-text("I'm grateful for my friends and my family.", 1230, 130);
+text("I shouldn't let bad things from the past hurt me today.", 1325, 137);
 
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I want to try staying positive.", 1200, 85);
+text("They were all wrong. I shouldn't let them bring me down.", 1325, 85);
 
 
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("We can achieve our dreams.", 1200, 310);
-
+text("No matter how hard life gets, I can't lose hope.", 1280, 390);
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
-text("I want to make a difference.", 1200, 350);
-
-strokeWeight(2);
-fill(255);
-textFont("Comic Sans MS");
-textSize(20 + (mouseX / width)*3);
-text("No matter how hard life gets, we can't lose hope.", 1280, 390);
-
-strokeWeight(2);
-fill(255);
-textFont("Comic Sans MS");
-textSize(20 + (mouseX / width)*3);
-text("I have to remember that failure is a part of success.", 1300, 440);
+text("I have to remember that failure is a part of success.", 1300, 445);
 
 
 strokeWeight(2);
-fill(255);
+fill(0);
 textFont("Comic Sans MS");
 textSize(20 + (mouseX / width)*3);
 text("I have to try letting go of the things that bring me down.", 1310, 500);
