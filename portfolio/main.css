@@ -102,3 +102,13 @@ footer {
     text-align: center;
 
 }
+
+
+div {
+    background-color: blue;
+    width: 550px;
+    border: 25px white;
+    padding: 25px;
+    margin: 25px;
+}	
+		
