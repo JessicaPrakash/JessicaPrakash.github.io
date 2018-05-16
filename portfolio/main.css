@@ -106,9 +106,9 @@ footer {
 
 div {
     background-color: blue;
-    width: 550px;
-    border: 25px white;
-    padding: 25px;
-    margin: 25px;
+    width: 800px;
+    padding: 70px;
+    margin: 70px;
+    opacity: 0.5
 }	
 		
